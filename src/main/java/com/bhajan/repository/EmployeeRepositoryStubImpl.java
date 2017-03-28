@@ -1,4 +1,4 @@
-package com.bhajan.repositoty;
+package com.bhajan.repository;
 
 import java.util.ArrayList;
 import java.util.List;
