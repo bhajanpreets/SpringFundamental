@@ -3,8 +3,11 @@ package com.bhajan.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.bhajan.model.Employee;
 
+@Repository("employeeRepository")
 public class EmployeeRepositoryStubImpl implements EmployeeRepositoryStub {
 
 	@Override
