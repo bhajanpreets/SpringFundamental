@@ -14,7 +14,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	//@Autowired
 	private EmployeeRepositoryStub employeeRepository;
 
-	@Autowired
+	//@Autowired
 	public EmployeeServiceImpl(EmployeeRepositoryStub employeeRepository){
 		this.employeeRepository = employeeRepository;
 	}
